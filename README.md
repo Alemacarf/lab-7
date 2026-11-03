@@ -54,6 +54,10 @@ Se usa `QSaveFile` para reescribir el archivo al editar o eliminar, de modo que 
 
 En el repositorio se incluye `contactos-ejemplo.txt` con tres contactos de prueba. Se puede copiar a la ruta anterior para ver el historial con datos de ejemplo.
 
+Para empezar con un historial vacío, eliminá la carpeta `Lab7Datos` de tu usuario.
+
+> Si al ejecutar el `.exe` fuera de Visual Studio aparece un error por DLL de Qt faltantes, agregá `C:\Qt\6.12.0\msvc2022_64\bin` al `PATH` o ejecutá `windeployqt` sobre el ejecutable.
+
 ## Comprobación de editar y eliminar
 
 La aplicación se probó con contactos ficticios:
